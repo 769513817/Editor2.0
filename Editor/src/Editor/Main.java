@@ -3,7 +3,7 @@ package Editor;
 public class Main {
 	
 	public static final String title = "Editor";
-	public static final int    h     = 750;
+	public static final int    h     = 760;
 	public static final int    w     = 800;
 	
 	

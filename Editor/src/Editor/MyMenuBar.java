@@ -1,5 +1,6 @@
 package Editor;
 
+import javax.swing.BorderFactory;
 import javax.swing.JMenuBar;
 
 public class MyMenuBar extends JMenuBar {
@@ -23,6 +24,8 @@ public class MyMenuBar extends JMenuBar {
 	}
 	
 	MyMenuBar() {
+		
+		this.setBorder(BorderFactory.createEmptyBorder());  // È¥³ý±ß¿ò
 		
 		this.menu    = new MyMenu [MyMenuBar.menuLength];
 		
